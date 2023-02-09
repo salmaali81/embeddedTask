@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int age;
+    int myage;
     printf("Enter age");
-    scanf(" %d", &age);
+    scanf(" %d", &myage);
     fflush(stdout);
-    printf("Your age is %d", age);
+    printf("Your age is %d", myage);
 }
